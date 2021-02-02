@@ -12,8 +12,8 @@
 namespace FoF\Gamification;
 
 use Flarum\Extend;
-use Flarum\Post\CommentPost;
 use Flarum\Post\Event\Saving;
+use Flarum\Post\Post;
 use Flarum\User\User;
 use FoF\Extend\Extend\ExtensionSettings;
 use FoF\Gamification\Api\Controllers;
@@ -36,13 +36,13 @@ return [
     (new Extend\Model(User::class))
         ->belongsToMany('ranks', Rank::class, 'rank_users'),
 
-    (new Extend\Model(CommentPost::class))
+    (new Extend\Model(Post::class))
         ->relationship('post_votes', function ($post) {
             return $post->belongsToMany(User::class, 'post_id', 'user_id', null, null, 'upvotes')
                 ->where('value', '>', 0);
         }),
 
-    (new Extend\Model(CommentPost::class))
+    (new Extend\Model(Post::class))
         ->belongsToMany('post_votes', User::class, 'post_id', 'user_id'),
 
 
