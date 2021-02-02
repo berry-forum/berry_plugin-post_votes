@@ -1,37 +1,39 @@
-# Gamification by FriendsOfFlarum
+# Nex
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fof/gamification.svg)](https://packagist.org/packages/fof/gamification) [![OpenCollective](https://img.shields.io/badge/opencollective-fof-blue.svg)](https://opencollective.com/fof/donate)  
+全方位的『超』自由論壇
+> 為壓力大想找人抒發，或者心中有小宇宙想找人分享的您
+>
+> 提供最棒的多元交流平台
 
-A [Flarum](http://flarum.org) extension. Add upvotes, downvotes, and ranks to your Flarum Community!
+![logo](nex.png)
 
-Upvote and downvote posts anonymously, and reward active users with ranks, and sort posts by hotness/popularity.
+## 正體中文 語言包
 
-**Note:** This extension is meant as a replacement for the Flarum Likes extension. Therefore, they are not compatible and it's recommended to disable the Likes extension.
+以 [MIT License](LICENSE) 發行程式原始碼
 
-- Q: How is hotness sorted ? 
-- A: The total amount of hotness is got between the amount of votes on the discussion and the posts inside of it. Also, newer posts with the same amount of upvotes as another post will have more hotness, so time is also an influent factor.
+    The MIT License (MIT)
 
-### Installation
+    Copyright (c) Csineneo
+    Copyright (c) 2020 Star Inc. (https://starinc.xyz)
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
+    Based on English resources, copyright (c) 2015-2017 Toby Zerner
 
-```sh
-composer require fof/gamification
-```
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-You can optionally convert your likes into upvotes, as well as calculate the hotness of all previously existing discussions.
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-### Updating
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-```sh
-composer update fof/gamification
-```
-
-### Links
-
-[<img src="https://opencollective.com/fof/donate/button@2x.png?color=blue" height="25" />](https://opencollective.com/fof/donate)
-
-- [Packagist](https://packagist.org/packages/fof/gamification)
-- [GitHub](https://github.com/FriendsOfFlarum/gamification)
-
-An extension by [FriendsOfFlarum](https://github.com/FriendsOfFlarum).
+> (c) 2020 [Star Inc.](https://starinc.xyz)
