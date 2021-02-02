@@ -1,23 +1,25 @@
 {
-    "name": "fof/gamification",
-    "description":  "Upvotes and downvotes for your Flarum community",
+    "name": "starinc/nex-post-votes",
+    "description": "Upvotes and downvotes for Nex.",
     "keywords": [
-        "flarum",
-        "friendsofflarum",
         "misc",
         "settings",
         "points",
-        "gamification"
+        "vote"
     ],
+    "homepage": "https://nex.starinc.xyz/",
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
+        {
+            "name": "SuperSonic",
+            "email": "supersonic@livemail.tw"
+        },
         {
             "name": "Christian Lopez",
             "email": "Christian.Lopez@redevs.org",
             "homepage": "https://redevs.org"
         },
-
         {
           "name": "Charlie K",
           "email": "Charlie.K@redevs.org",
@@ -29,10 +31,6 @@
             "homepage": "https://datitisev.me"
         }
     ],
-    "support": {
-        "issues": "https://github.com/FriendsOfFlarum/gamification/issues",
-        "source": "https://github.com/FriendsOfFlarum/gamification"
-    },
     "require": {
         "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14",
         "fof/extend": ">=0.3.0"
